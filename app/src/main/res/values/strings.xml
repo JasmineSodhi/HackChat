@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Hack Chat</string>
+    <string name="signed_out">Signed Out!</string>
 </resources>
