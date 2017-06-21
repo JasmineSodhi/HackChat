@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Hack Chat</string>
     <string name="signed_out">Signed Out!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
