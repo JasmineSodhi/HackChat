@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.jasminesodhi.hackchat.MainActivity">
-  
+
     <Button
         android:id="@+id/organize_a_hackathon"
         style="@android:style/Widget.Holo.Button"
@@ -21,21 +21,15 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <Button
+    <com.google.android.gms.common.SignInButton
         android:id="@+id/google_sign_in"
-        style="@android:style/Widget.Holo.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:background="@android:color/holo_red_dark"
-        android:fontFamily="sans-serif-condensed"
-        android:text="@string/sign_in"
-        android:textAlignment="center"
-        android:textSize="24sp"
+        android:layout_marginTop="13dp"
         android:layout_below="@+id/organize_a_hackathon"
-        android:layout_alignLeft="@+id/organize_a_hackathon"
-        android:layout_alignStart="@+id/organize_a_hackathon"
         android:layout_alignRight="@+id/organize_a_hackathon"
-        android:layout_alignEnd="@+id/organize_a_hackathon" />
+        android:layout_alignEnd="@+id/organize_a_hackathon"
+        android:layout_alignLeft="@+id/organize_a_hackathon"
+        android:layout_alignStart="@+id/organize_a_hackathon" />
+
 </RelativeLayout>
-</LinearLayout>

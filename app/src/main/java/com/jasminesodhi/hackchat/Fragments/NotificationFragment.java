@@ -12,6 +12,7 @@ import com.jasminesodhi.hackchat.R;
 /**
  * A simple {@link Fragment} subclass.
  */
+
 public class NotificationFragment extends Fragment {
 
 
