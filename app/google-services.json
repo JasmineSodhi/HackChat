@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "107359938971-32sbbasvlv34189qt8e9i5j3989vrav0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jasminesodhi.hackchat",
+            "certificate_hash": "741fc78d6174f2c351813b45cf4a02593de482f4"
+          }
+        },
+        {
           "client_id": "107359938971-d67nja1f2bbru14l7611j0ehjj6s9hr9.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,20 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107359938971-d67nja1f2bbru14l7611j0ehjj6s9hr9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "107359938971-jhlj14hm5m4halbvta96u8cc0d0m5ktu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bhagat-singh.HackChat"
+              }
+            }
+          ]
         },
         "ads_service": {
           "status": 2
